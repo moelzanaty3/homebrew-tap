@@ -9,7 +9,7 @@ cask "sweep" do
   desc "Disk hygiene for developers"
   homepage "https://github.com/moelzanaty3/sweep"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Sweep.app"
 
